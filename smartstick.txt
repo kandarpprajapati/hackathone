@@ -30,7 +30,7 @@ void loop() {
   dis = dur * 0.034 / 2;
 
   sd = dis;
-  if (sd <= 15) {
+  if (sd <= 35 && sd>0) {
     digitalWrite(buzzer, HIGH);
   } else {
     digitalWrite(buzzer, LOW);
